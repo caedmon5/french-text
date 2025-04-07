@@ -3,8 +3,20 @@
 .cache/
 workspace.json
 
-# macOS
+# Quartz output and cache
+/public/
+.quartz-cache/
+
+# Node + TypeScript
+node_modules/
+tsconfig.tsbuildinfo
+
+# OS and editor files
 .DS_Store
 
-# Quartz build output
-/public/
+# Files/folders from starter repo you might not use
+.gitignore
+private/
+prof/
+.replit
+replit.nix
