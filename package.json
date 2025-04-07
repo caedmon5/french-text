@@ -3,11 +3,11 @@
   "version": "1.0.0",
   "type": "module",
   "scripts": {
-    "dev": "quartz dev",
-    "build": "quartz build",
-    "deploy": "quartz deploy"
+    "dev": "node node_modules/@jackyzha0/quartz/quartz/bootstrap-cli.mjs dev",
+    "build": "node node_modules/@jackyzha0/quartz/quartz/bootstrap-cli.mjs build",
+    "deploy": "node node_modules/@jackyzha0/quartz/quartz/bootstrap-cli.mjs deploy"
   },
   "dependencies": {
-    "@jackyzha0/quartz": "github:jackyzha0/quartz"
+    "@jackyzha0/quartz": "^4.5.0"
   }
 }
