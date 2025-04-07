@@ -1,0 +1,13 @@
+{
+  "name": "french-text-site",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "quartz dev",
+    "build": "quartz build",
+    "deploy": "quartz deploy"
+  },
+  "dependencies": {
+    "@jackyzha0/quartz": "github:jackyzha0/quartz"
+  }
+}
