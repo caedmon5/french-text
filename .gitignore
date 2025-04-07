@@ -1,0 +1,10 @@
+# Obsidian-specific
+.obsidian/
+.cache/
+workspace.json
+
+# macOS
+.DS_Store
+
+# Quartz build output
+/public/
